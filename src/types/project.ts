@@ -1,4 +1,4 @@
-import { JSX, ReactNode } from "react";
+import { JSX } from "react";
 
 export type Project = {
     title: string;
@@ -7,4 +7,4 @@ export type Project = {
     Description: () => JSX.Element;
 };
 
-export type ProjectCard = {};
+// export type ProjectCard = {};

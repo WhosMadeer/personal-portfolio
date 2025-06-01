@@ -1,4 +1,4 @@
-import { projectList, ProjectListKey } from "@/data/projects-list";
+import { projectList } from "@/data/projects-list";
 import { Project } from "@/types/project";
 import Link from "next/link";
 

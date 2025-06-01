@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Project } from "@/types/project";
 
 const Description = () => {

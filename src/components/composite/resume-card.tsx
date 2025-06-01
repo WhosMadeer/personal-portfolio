@@ -1,9 +1,8 @@
 "use client";
 
-import { Download, FileUser, Mail, Search } from "lucide-react";
+import { Download, Mail, Search } from "lucide-react";
 import { Button } from "../ui/button";
 import { Card, CardContent } from "../ui/card";
-import Link from "next/link";
 
 export function ResumeCard() {
     return (

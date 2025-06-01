@@ -3,7 +3,6 @@
 import { ReactNode } from "react";
 import {
     Card,
-    CardAction,
     CardContent,
     CardDescription,
     CardFooter,
@@ -11,7 +10,7 @@ import {
     CardTitle,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { GitGraph, Search, WineOff } from "lucide-react";
+import { GitGraph, Search } from "lucide-react";
 
 export function IntroCard() {
     return (
