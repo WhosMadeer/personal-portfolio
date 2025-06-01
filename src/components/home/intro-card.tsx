@@ -14,7 +14,7 @@ import { GitGraph, Search } from "lucide-react";
 
 export function IntroCard() {
     return (
-        <Card className="h-fit md:mx-20 mx-5">
+        <Card className="h-fit md:ml-40 md:mr-10 mx-5">
             <CardHeader>
                 <CardTitle className="text-4xl font-extrabold">
                     Hello! I'm Mahir
@@ -30,10 +30,11 @@ export function IntroCard() {
                     Engineering student at the University of Toronto. I am also
                     the founding engineer for SnapShip Solutions - a tech based
                     startup - for 3 years. In this position, I learned how to
-                    built full stack applications in React and Typescript. As a
-                    student, I developed strong skills in time management,
-                    organization and teamwork. I am always looking for a new
-                    challenge
+                    built full stack applications with React and Express with
+                    Typescript. As a student, I have strong skills in time
+                    management, organization and teamwork. Everyday, I am
+                    looking for a new challenge to grow as a person and to meet
+                    new people and create life long connections
                 </p>
             </CardContent>
             <CardFooter>

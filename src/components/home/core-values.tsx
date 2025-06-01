@@ -18,7 +18,7 @@ export function CoreValues() {
 
                 <CoreValueCard title="Adaptable" icon={<LayoutTemplate />}>
                     As a student who's working full time, I had to learn how to
-                    manage my time and stay organizated
+                    manage my time and stay organized
                 </CoreValueCard>
             </div>
         </div>
