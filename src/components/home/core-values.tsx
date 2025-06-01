@@ -4,9 +4,9 @@ import { Book, ChartLine, LayoutTemplate } from "lucide-react";
 
 export function CoreValues() {
     return (
-        <div className="grid gap-8">
+        <div className="grid gap-8 w-full">
             <h1 className="text-4xl font-bold">Core Values</h1>
-            <div className="grid gap-4 items-center">
+            <div className="grid gap-4 items-center max-w-full">
                 <CoreValueCard title="Innovative" icon={<ChartLine />}>
                     I am driven to create new solutions, improve existing
                     systems, and think beyond conventional methods.
@@ -33,13 +33,13 @@ interface CoreValueCardProps {
 
 const CoreValueCard = ({ title, children, icon }: CoreValueCardProps) => {
     return (
-        <Card>
+        <Card className="w-full">
             <CardHeader>
                 <div className="flex gap-2 font-bold text-lg">
                     {icon} {title}
                 </div>
             </CardHeader>
-            <CardContent>{children}</CardContent>
+            <CardContent className="flex-wrap w-full">{children}</CardContent>
         </Card>
     );
 };

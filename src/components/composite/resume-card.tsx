@@ -40,15 +40,6 @@ export function ResumeCard() {
                         <Download />
                         Resume
                     </Button>
-                    {/* <a
-                        href="/resume/Mahir's Resume.pdf"
-                        download={"Mahir's Resume"}
-                        target="_blank"
-                        className="h-21 w-21 grid place-content-center justify-items-center border text-secondary-foreground shadow-xs hover:bg-secondary rounded-md ml-auto"
-                    >
-                        <Download />
-                        Resume
-                    </a> */}
                 </div>
             </CardContent>
         </Card>

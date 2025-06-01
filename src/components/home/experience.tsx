@@ -88,7 +88,7 @@ export function Experience() {
                                 planning to completion.
                             </li>
                         </ul>
-                        <div className="flex gap-2">
+                        <div className="flex gap-2 flex-wrap">
                             <SkillList skills={SchoolList} />
                         </div>
                     </div>
@@ -120,7 +120,7 @@ export function Experience() {
                                 mission and accomplishments over multiple years
                             </li>
                         </ul>
-                        <div className="flex gap-2">
+                        <div className="flex gap-2 flex-wrap">
                             <SkillList skills={RoboticsList} />
                         </div>
                     </div>
@@ -173,7 +173,7 @@ const ExperienceDetails = ({
     return (
         <div className="flex flex-col gap-2 flex-auto w-full">
             <header className="flex flex-col gap-2">
-                <div className="flex">
+                <div className="flex gap-2">
                     <h1 className="font-semibold text-lg items-baseline flex-auto">
                         {title}
                     </h1>

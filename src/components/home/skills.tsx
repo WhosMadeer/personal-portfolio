@@ -47,7 +47,7 @@ const technologies = [
 
 export function SkillDisplay() {
     return (
-        <div className="grid gap-8">
+        <div className="grid gap-8 w-full">
             <h1 className="text-4xl font-bold">Skills</h1>
             <div className="grid gap-4">
                 <h2 className="text-xl font-medium">Soft Skills</h2>

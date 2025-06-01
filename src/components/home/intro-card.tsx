@@ -15,7 +15,7 @@ import { GitGraph, Search, WineOff } from "lucide-react";
 
 export function IntroCard() {
     return (
-        <Card className="h-fit md:mx-20">
+        <Card className="h-fit md:mx-20 mx-5">
             <CardHeader>
                 <CardTitle className="text-4xl font-extrabold">
                     Hello! I'm Mahir
