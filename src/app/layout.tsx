@@ -31,7 +31,11 @@ export default function RootLayout({
                 />
                 <title>Mahir Khandaker</title>
             </head>
-            <body>{children}</body>
+            <body>
+                <div className="flex flex-col place-content-center overflow-y-scroll gap-40 py-20 max-w-full overflow-x-hidden">
+                    {children}
+                </div>
+            </body>
         </html>
     );
 }

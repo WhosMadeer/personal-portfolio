@@ -5,10 +5,11 @@ import { Experience } from "@/components/home/experience";
 import { IntroCard } from "@/components/home/intro-card";
 import { SkillDisplay } from "@/components/home/skills";
 import Image from "next/image";
+import GitHubCalendar from "react-github-calendar";
 
 export default function Home() {
     return (
-        <div className="flex flex-col place-content-center overflow-y-scroll gap-40 py-20 max-w-full overflow-x-hidden">
+        <>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center justify-items-center md:h-screen">
                 <div className="min-h-fit">
                     <IntroCard />
@@ -25,6 +26,7 @@ export default function Home() {
                     <ResumeCard />
                 </div>
             </div>
+
             <div className="mx-5 lg:mx-10 grid gap-35">
                 <Experience />
                 <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -34,6 +36,10 @@ export default function Home() {
                     <CoreValues />
                 </div>
             </div>
-        </div>
+
+            <div className="flex w-full items-center justify-center">
+                <GitHubCalendar username="WhosMadeer" />
+            </div>
+        </>
     );
 }
